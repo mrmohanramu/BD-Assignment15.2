@@ -7,6 +7,7 @@ class MatchCase{
     course.toLowerCase() match {
       case "android" => "12999"
       case "big data development" => "17999"
+      case "advanced big data development" => "17999"
       case "spark" =>"19999"
       case _ => "NA"
     }
